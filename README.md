@@ -14,8 +14,3 @@ Workflow to pass a homework:
 4. When you will be ready to submit and test you solution on Autocode, you will need to commit and push `autocode/students_test` file to git. **Make sure that this file was automatically updated.** 
 
 After submitting of your solution on Autocode you will get some logs. Keep in mind that you will only get the result of your tests if they fail. Otherwise, you will only get the coverage value. If you faced with some error or did not achieve desired coverage - modify your code and try again.
-
-Prerequisite:
-- Execute commands
-    - `go mod init`
-    - `go mod tidy`
