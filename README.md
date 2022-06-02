@@ -9,11 +9,11 @@ Inside this repo you can find 2 files and one directory:
 
 Workflow to pass a homework: 
 1. Write tests in `students_test.go`
-2. Run your tests locally to check it status and resulted coverage. Each time you run tests your code will be copied to `/autocode` folder (NOTE: the name of this file is `students_test` - it's correct).
+2. Run your tests locally to check it status and resulted coverage. Each time you run tests your code will be copied to `/autocode` folder. The name of copied file (without an extension) is `students_test` - it's correct. Please, do not modify this file manually, do it every time by triggering `go test`.
 3. Repeat steps 1 and 2 before you get desired result.
 4. When you will be ready to submit and test you solution on Autocode, you will need to commit and push `autocode/students_test` file to git. **Make sure that this file was automatically updated.** 
 
-After submitting of your solution on Autocode you will get some logs. If you faced with some error or did not achieve full coverage - modify your code and try again.
+After submitting of your solution on Autocode you will get some logs. Keep in mind that you will only get the result of your tests if they fail. Otherwise, you will only get the coverage value. If you faced with some error or did not achieve desired coverage - modify your code and try again.
 
 Prerequisite:
 - Execute commands

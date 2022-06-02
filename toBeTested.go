@@ -7,6 +7,14 @@ import (
 	"time"
 )
 
+/*
+This file consists of two parts, separated from each other by "/".
+The first part consists of a structure with implemented methods Len, Less and Swap,
+which means the implementation of the sort.Interface interface.
+The second part consists of implementing a matrix to store numbers in rows and columns.
+Your goal to write tests for this code and achieve as much coverage as possible.
+*/
+
 type Person struct {
 	firstName string
 	lastName  string
@@ -99,3 +107,4 @@ func (m *Matrix) Set(row, col, value int) bool {
 	m.data[row*m.cols+col] = value
 	return true
 }
+
